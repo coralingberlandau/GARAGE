@@ -15,9 +15,9 @@ readData()
 
 const displayData = () => {
     divDisplay.innerHTML = cars.map(car => `<div>
-        Customer: ${car.Customer}${"-"}
-        Name: ${car.Name}${"-"}
-        Model: ${car.Model}${"-"}
+        Customer: ${car.Customer} -
+        Name: ${car.Name} -
+        Model: ${car.Model} -
         Color: ${car.Color}
         <button onclick="deleteData('${car.id}')" > Delete </button>  
         <button onclick="updateData('${car.id}')"> Update </button>
